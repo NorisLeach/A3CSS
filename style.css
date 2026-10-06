@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;  /*calc singur cat sa ramane in stanga si dreapta*/
+    margin-top: 20px;
+}
+
+.content-light {
+    padding-top: 40px;
+    background-color: #f9f9f9;
+}
+
+.content-light h3 {
+    font-weight: normal; /*scot boldul care epus automat   */
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+
+.main-header {
+    background: #fff;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #7a857e;
+    padding: 0 20px;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    cursor: pointer;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 22px;
+}
+
+
+.header-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background: #f6f6f6;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    height: 38px;
+    padding: 0 10px;
+}
+
+.search-icon {
+    color: #666;
+    font-size: 20px;
+}
+
+#search-input {
+    border: none;
+    background: transparent;
+    outline: none;     /*altfel apare un chenar albastru la textul de input*/
+    width: 100%;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-right span {
+    color: #333;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.chat-red {
+    color: #f80000 !important;
+}
+
+
+.black-bar {
+    background: #161513;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.breadcrumb {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.page-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tab-nav {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.tab-nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.tab-nav li {
+    padding: 15px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.tab-nav li.active {
+    border-bottom: 3px solid #5a803d;
+}
+
+
+.hero-dark {
+    background: #3a3632;
+    color: #fff;
+    padding: 60px 0;
+}
+
+.hero-flex {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-image img {
+    width: 250px;
+    border-radius: 4px;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.btn-white {
+    background: #fff;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: normal;
+    border-radius: 4px;
+}
+
+.download-list a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+    font-size: 14px;
+}
